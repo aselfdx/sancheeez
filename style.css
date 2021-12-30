@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+p1 {
+    color: white;
+    font-family: verdana;
+    font-size: 300%;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+    <style>
+      *{margin:0; padding:0;}
+
+	.menu{width:800px; height:48px; background:#000; margin:0 auto;border-bottom:4px solid red;}
+
+	.menu ul li {float:left;list-style-type:none;}
+
+	.menu ul li a{color:#fff; font:17px Arial;text-decoration:none;display:block; padding:14px 15px;transition:all .5s;-webkit-transition:all .5s;-moz-transition:all .5s;}
+
+	.menu ul li a:hover{
+
+		background:red;
+
+		color:white;
+
+	}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    padding:12px 14px;
+
+    background-color: #27ae60;
+}
+      
+</style>
+</head>
+<body>
+
+</body>
+</html>
